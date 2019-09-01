@@ -6,13 +6,13 @@ class Person
 
 
   def initialize(name:, birthday:, hair_color:, eye_color:, height:, weight:, handed:, attributes)
-    # @name = name
-    # @birthday = birthday
-    # @hair_color = hair_color
-    # @eye_color = eye_color
-    # @height = height
-    # @weight = weight
-    # @handed = handed
+    @name = name
+    @birthday = birthday
+    @hair_color = hair_color
+    @eye_color = eye_color
+    @height = height
+    @weight = weight
+    @handed = handed
     # @complexion = complexion
     # @t_shirt_size = t_shirt_size
     # @wrist_size = wrist_size
