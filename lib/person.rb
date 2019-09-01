@@ -5,7 +5,7 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
 
-  def initialize()
+  def initialize(attributes)
     # @name = name
     # @birthday = birthday
     # @hair_color = hair_color
@@ -31,8 +31,8 @@ end
 #   #your code here
 #   attr_accessor :name, :birthday, :hair_color, :eye_color, :height,
 #     :weight, :handed
-#
-#
+# 
+# 
 #   def initialize(attributes)
 #     attributes.each{|key, value| self..send(("#{key}="), value)}
 #   end
