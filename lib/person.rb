@@ -4,7 +4,8 @@ class Person
     :weight, :handed
 
 
-  def initialize(attributes)
+  def initialize(name:, birthday:, hair_color:, eye_color:, height:,
+    weight:, handed:)
     attributes.each{|key, value| self..send(("#{key}="), value)}
   end
 end
